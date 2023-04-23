@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+body {
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  box-sizing: border-box;
+
+  --font-family: "Poppins";
+  --color-darkblue: darkblue;
+}
+
+#top {
+  display: flex;
+  flex-shrink: 10;
+  flex-basis: auto;
+
+  height: 10vh;
+}
+
+.col {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: fit-content;
+  vertical-align: center;
+  font-family: var(--font-family);
+}
+
+#welcome {
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--color-darkblue);
+
+  margin-right: 15%;
+}
+
+.link {
+  margin-right: 7vw;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-darkblue);
+}
+
+#button {
+  margin-left: auto;
+}
+
+#signout {
+  border-style: solid;
+  border-radius: 3px;
+  border-color: var(--color-darkblue);
+  background-color: none;
+
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+
+  text-decoration: none;
+  color: var(--color-darkblue);
+}
+
+#signout:hover {
+  border-style: solid;
+  border-color: var(--color-darkblue);
+  color: white;
+  background-color: var(--color-darkblue);
+}
+
+#card {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-darkblue);
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.col2 {
+  width: 50%;
+}
+
+#intro {
+  font-family: var(--font-family);
+  color: white;
+
+  width: fit-content;
+  max-height: fit-content;
+  vertical-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#intro > h1 {
+  margin: 0 0 0 0;
+  margin-left: 15%;
+  width: fit-content;
+  font-size: 2rem;
+  font-size: 4.5vw;
+}
+
+#intro > p {
+  width: 70%;
+  font-size: 0.6rem;
+  font-size: 1.2vw;
+  margin: 0 0 2.5vw 0;
+  margin-left: 15%;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+
+.box1 {
+  margin: 0 0 0 0;
+}
+
+.box1 > h1,
+.box1 > p {
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+.box1 > h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.box1 > p {
+  margin-bottom: 0;
+  margin-top: 8vh;
+}
+
+.box2 {
+  display: flex;
+  font-family: var(--font-family);
+  margin-bottom: 10vh;
+}
+
+.col3 {
+  width: 50%;
+}
+
+table {
+  margin: auto;
+  margin-right: 0;
+}
+
+table,
+th,
+tr {
+  border: 2px solid var(--color-darkblue);
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+thead {
+  background-color: var(--color-darkblue);
+  color: white;
+}
+
+#explanation > p {
+  margin-top: 0;
+}
+
+#explanation {
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: center;
+  padding: 20px;
+  border-radius: 6px;
+
+  background-color: var(--color-darkblue);
+  color: white;
+}
