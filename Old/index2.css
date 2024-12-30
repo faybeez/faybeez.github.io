@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fira+Code&family=Inter&family=Syne:wght@400;500;700&display=swap');
+
+element {
+    --main-bg: #1C2C57;
+    --sec-bg: #293C6C;
+    --sec-col: #DDB462;
+    --sup-col: #73A1FD;
+}
+
+body {
+    background-color: white;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#intro {
+    margin: 14vw 10vw 0 10vw;
+}
+
+#hello_and_name {
+    padding: 0px 18vw 0px 18vw;
+}
+
+#title h1 {
+
+    margin: 0;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5rem;
+    line-height: 240px;
+}
+
+#name {
+
+    margin: 0;
+
+    text-align: right;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 58px;
+}
+
+#welcome {
+    padding: 12px 32px 11px 32px;
+
+    background-color: #DDB462;
+    border-radius: 10px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 48px;
+}
+
+#welcomebut {
+    text-align: center;
+    margin-top: 80px;
+}
